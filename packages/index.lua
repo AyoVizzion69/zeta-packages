@@ -44,6 +44,7 @@ return {
   { name = "pulseaudio", version = "17.0", summary = "Network-capable sound server and client library" },
   { name = "scenefx", version = "0.5", summary = "Wayland compositor effects library (window animation/effects)" },
   { name = "util-macros", version = "1.20.2", summary = "X.Org Autoconf macros (build-time dependency)" },
+  { name = "vim", version = "9.2.920", summary = "Modal text editor" },
   { name = "wayland", version = "1.26.0", summary = "Wayland compositor infrastructure: client/server libraries and scanner" },
   { name = "wayland-protocols", version = "1.49", summary = "Wayland protocol XML definitions (build-time data for compositors and clients)" },
   { name = "wlroots", version = "0.20.2", summary = "Modular Wayland compositor library" },
