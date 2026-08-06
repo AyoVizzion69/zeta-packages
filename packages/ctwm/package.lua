@@ -1,12 +1,9 @@
 return {
-	name = "ctwm",
-	verstion = "4.1.0",
-	summary = "Window manager based on TWM (with virtual workspaces)",
-	url = "https://www.ctwm.org/dist/ctwm-4.1.0.tar.gz",
-	sha256 = "89f6f21e269c641195e6b39fe804537fce79eb0df821b1a696939aeab7444caa",
-	deps = {"libX11", "libXext", "libXmu", "libXt", "libSM", "libICE", "libXpm", "libXrandr"}, --missing libjpeg and m4
-	build = function (p)
-		p:run("make")
-		p:run("make install")
-	end
+  name    = "ctwm",
+  version = "4.1.0",
+  summary = "Window manager based on TWM (with virtual workspaces)",
+  url     = "https://github.com/gretagen/zeta-packages/packages/ctwm/ctwm-4.1.0.tar.gz",
+  sha256  = "702d9c567879fd0fe087ecccf2cf12794edbb2fca443f249a3fdba406b3d22a2",
+  deps    = { "libX11", "libXext", "libXmu", "libXt", "libSM", "libICE", "libXpm", "libXrandr" },
+  archive = { strip = 1 },
 }
