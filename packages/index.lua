@@ -32,6 +32,7 @@ return {
   { name = "libxcb", version = "1.17.0", summary = "X C Binding library (X11 protocol client library)" },
   { name = "libxcvt", version = "0.1.3", summary = "Library for VESA CVT standard timing modelines" },
   { name = "libz", version = "1.3.1", summary = "Zlib-compatible shared library (Zeta sample; exercises symlinks)" },
+  { name = "make", version = "4.4.1", summary = "GNU Make — build automation tool" },
   { name = "mango", version = "0.15.6", summary = "MangoWM: lightweight dwl-based Wayland compositor" },
   { name = "nscde", version = "2.3", summary = "Not so Common Desktop Environment: retro CDE-like desktop on FVWM" },
   { name = "pipewire", version = "1.6.8", summary = "Multimedia processing graph and audio/video daemon" },
