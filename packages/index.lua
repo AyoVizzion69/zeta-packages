@@ -1,6 +1,7 @@
 return {
   { name = "cjson", version = "1.7.19", summary = "Ultralightweight JSON parser for C (used by mango)" },
   { name = "fastfetch", version = "2.66.0", summary = "Fast, feature-rich system information fetcher (neofetch successor)" },
+  { name = "firefox", version = "153.0.3", summary = "Mozilla Firefox web browser (standalone build)" },
   { name = "fontconfig", version = "2.18.2", summary = "Font configuration and customization library" },
   { name = "freetype", version = "2.14.3", summary = "FreeType font engine library" },
   { name = "fvwm3", version = "1.1.5", summary = "Virtual window manager for the X Window System" },
