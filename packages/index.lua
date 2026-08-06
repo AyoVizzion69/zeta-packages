@@ -1,6 +1,7 @@
 return {
   { name = "bubblewrap", version = "0.11.2", summary = "Low-level unprivileged sandboxing tool (used by Flatpak)" },
   { name = "cjson", version = "1.7.19", summary = "Ultralightweight JSON parser for C (used by mango)" },
+  { name = "ctwm", version = "4.1.0", summary = "Window manager based on TWM (with virtual workspaces)" },
   { name = "fastfetch", version = "2.66.0", summary = "Fast, feature-rich system information fetcher (neofetch successor)" },
   { name = "firefox", version = "153.0.3", summary = "Mozilla Firefox web browser (standalone build)" },
   { name = "flatpak", version = "1.18.0", summary = "Application sandboxing and distribution framework" },
