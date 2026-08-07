@@ -73,6 +73,7 @@ return {
   { name = "xdg-desktop-portal", version = "1.22.1", summary = "Desktop integration portal frontend (D-Bus)" },
   { name = "xinit", version = "1.4.4", summary = "X11 server startup tool (startx/xinit)" },
   { name = "xkbcommon", version = "1.13.2", summary = "Keyboard keymap compiler and support library" },
+  { name = "xkeyboard-config", version = "2.47", summary = "XKB keymap rules and symbols database" },
   { name = "xorg-server", version = "21.1.24", summary = "X.Org X server (modesetting driver, no GLX)" },
   { name = "xorgproto", version = "2025.1", summary = "Combined X.Org protocol headers (build-time dependency)" },
   { name = "xshmfence", version = "1.3.3", summary = "X11 shared memory fence library (synchronization primitives)" },
