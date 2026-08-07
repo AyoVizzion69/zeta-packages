@@ -48,6 +48,7 @@ return {
   { name = "libostree", version = "2025.7", summary = "Content-addressed object storage and versioning (ostree)" },
   { name = "libpciaccess", version = "0.17", summary = "Generic PCI access library (X11)" },
   { name = "libpng", version = "1.6.47", summary = "PNG image format library" },
+  { name = "libtirpc", version = "1.3.6", summary = "Transport Independent RPC library" },
   { name = "libxcb", version = "1.17.0", summary = "X C Binding library (X11 protocol client library)" },
   { name = "libxcvt", version = "0.1.3", summary = "Library for VESA CVT standard timing modelines" },
   { name = "libxml2", version = "2.15.3", summary = "XML parsing library (libxml2)" },
