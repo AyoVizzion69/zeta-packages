@@ -43,6 +43,7 @@ return {
   { name = "libffi", version = "3.4.6", summary = "Portable Foreign Function Interface library" },
   { name = "libfontenc", version = "1.1.9", summary = "X11 font encoding library" },
   { name = "libfyaml", version = "0.9.6", summary = "YAML 1.2 parser and emitter library" },
+  { name = "libjpeg-turbo", version = "3.2.0", summary = "MMX/SSE2/SMID accelerated library for manipulating JPEG images" },
   { name = "libostree", version = "2025.7", summary = "Content-addressed object storage and versioning (ostree)" },
   { name = "libpciaccess", version = "0.17", summary = "Generic PCI access library (X11)" },
   { name = "libpng", version = "1.6.47", summary = "PNG image format library" },
