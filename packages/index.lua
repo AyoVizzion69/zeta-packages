@@ -56,6 +56,7 @@ return {
   { name = "libz", version = "1.3.2", summary = "Zlib compression library" },
   { name = "make", version = "4.4.1", summary = "GNU Make — build automation tool" },
   { name = "mango", version = "0.15.6", summary = "MangoWM: lightweight dwl-based Wayland compositor" },
+  { name = "ncurses", version = "6.6", summary = "Terminal graphics library" },
   { name = "nscde", version = "2.3", summary = "Not so Common Desktop Environment: retro CDE-like desktop on FVWM" },
   { name = "pango", version = "1.56.3", summary = "Text layout and rendering library" },
   { name = "pipewire", version = "1.6.8", summary = "Multimedia processing graph and audio/video daemon" },
