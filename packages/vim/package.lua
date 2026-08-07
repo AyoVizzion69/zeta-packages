@@ -1,9 +1,9 @@
 return {
   name    = "vim",
-  version = "9.2.920",
+  version = "9.2.0920",
   summary = "Modal text editor",
-  url     = "https://github.com/gretagen/zeta-packages/packages/vim/vim-9.2.920.tar.gz",
-  sha256  = "bf6f93b96d4c64fcc0eca236548ab95532b63b1624efcbc265608c6df4bd3458",
+  url     = "https://github.com/gretagen/zeta-packages/packages/vim/vim-9.2.0920.tar.gz",
+  sha256  = "991858c6949f32f8c897dc59031824903663024958927ec72a91231210fd0dd6",
   deps    = {},
   archive = { strip = 1 },
 }
