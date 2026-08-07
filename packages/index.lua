@@ -37,6 +37,7 @@ return {
   { name = "libXrandr", version = "1.5.5", summary = "X11 RandR extension client library" },
   { name = "libXrender", version = "0.9.12", summary = "X Render extension client library (X11)" },
   { name = "libXt", version = "1.3.1", summary = "X11 toolkit intrinsics library" },
+  { name = "libXtst", version = "1.2.5", summary = "X11 Testing extension library" },
   { name = "libappstream", version = "1.1.2", summary = "AppStream metadata library and tools" },
   { name = "libdrm", version = "2.4.134", summary = "Direct Rendering Manager userspace library" },
   { name = "libepoxy", version = "1.5.10", summary = "OpenGL function pointer management library" },

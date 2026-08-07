@@ -3,7 +3,7 @@ return {
   version = "11.1.0",
   summary = "Text shaping library",
   url     = "https://github.com/gretagen/zeta-packages/packages/harfbuzz/harfbuzz-11.1.0.tar.gz",
-  sha256  = "1e6b78268ffbcb07e29a7cb40eca06dc77fb56b602691460a9448d1e6b8c408a",
+  sha256  = "eca44b0b67e066d2e4c0ad52d47c15d36528ff26da556825b0a98581c453aaa8",
   deps    = { "freetype" },
   archive = { strip = 1 },
   test    = function(p)

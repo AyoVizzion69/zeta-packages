@@ -4,7 +4,7 @@ return {
   summary = "X11 FreeType-based font rendering library",
   url = "https://github.com/gretagen/zeta-packages/packages/libXft/libXft-2.3.9.tar.gz",
   sha256 = "fb1768166d90704625f792e4d5c9dbd3bbe47fa097536ec262b2e1983f05072f",
-  deps = { "libX11", "libXrender" },
+  deps = { "fontconfig", "freetype", "libX11", "libXrender" },
   archive = { strip = 1 },
   test = function(p)
     p:run("test -f '" .. p.install_root .. "'/usr/lib/libXft.so.2")
