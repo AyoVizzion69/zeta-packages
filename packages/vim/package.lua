@@ -3,7 +3,10 @@ return {
   version = "9.2.0920",
   summary = "Modal text editor",
   url     = "https://github.com/gretagen/zeta-packages/packages/vim/vim-9.2.0920.tar.gz",
-  sha256  = "991858c6949f32f8c897dc59031824903663024958927ec72a91231210fd0dd6",
-  deps    = {"ncurses"},
+  sha256  = "f2a8ea522c9da20a1d02b963623ce57c0641ae4ac0fc720202106bbccb104b1c",
+  deps    = { "libtinfo", "libX11", "libXt", "libSM", "libICE", "wayland" },
   archive = { strip = 1 },
+  test    = function(p)
+    p:run("test -f " .. p.install_root .. "/usr/local/bin/vim && test -x " .. p.install_root .. "/usr/local/bin/vim")
+  end,
 }

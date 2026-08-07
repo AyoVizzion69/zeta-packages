@@ -4,7 +4,7 @@ return {
   summary = "Dynamic tiling Wayland compositor",
   url = "https://github.com/gretagen/zeta-packages/packages/hyprland/hyprland-0.56.2.tar.gz",
   sha256 = "e42923d0e8264f63ac52f40f502f119840c433170867e84309f18e9cc3706c41",
-  deps = { "hyprutils" },
+  deps = { "cairo", "harfbuzz", "hyprutils", "libXcursor", "libdrm", "pango", "pixman", "wayland", "xkbcommon" },
   archive = { strip = 1 },
   test = function(p)
     p:run("test -x '" .. p.install_root .. "'/usr/bin/Hyprland")
