@@ -1,9 +1,9 @@
 return {
   name    = "libxml2",
   version = "2.15.3",
-  summary = "XML parsing library (libxml2)",
+  summary = "XML C parser and toolkit",
   url     = "https://github.com/gretagen/zeta-packages/packages/libxml2/libxml2-2.15.3.tar.gz",
-  sha256  = "7643c7a3f1b14ac6fe230e9b740e88bdd46e9dcdde5cfd1a17b5d5349456cf48",
+  sha256  = "99214081590302908c76116d1eb4b700ab32fd519ce2fde331b32a963c36918b",
   deps    = {},
   archive = { strip = 1 },
   test    = function(p)
