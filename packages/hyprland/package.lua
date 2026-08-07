@@ -2,7 +2,7 @@ return {
   name = "hyprland",
   version = "0.56.2",
   summary = "Dynamic tiling Wayland compositor",
-  url = "https://github.com/gretagen/zeta-packages/packages/hyprland/hyprland-0.56.2.tar.gz",
+  url = "https://raw.githubusercontent.com/gretagen/zeta-packages/refs/heads/main/packages/hyprland/hyprland-0.56.2.tar.gz",
   sha256 = "e42923d0e8264f63ac52f40f502f119840c433170867e84309f18e9cc3706c41",
   deps = { "cairo", "harfbuzz", "hyprutils", "libXcursor", "libdrm", "pango", "pixman", "wayland", "xkbcommon" },
   archive = { strip = 1 },

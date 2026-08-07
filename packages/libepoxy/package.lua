@@ -2,7 +2,7 @@ return {
   name    = "libepoxy",
   version = "1.5.10",
   summary = "OpenGL function pointer management library",
-  url     = "https://github.com/gretagen/zeta-packages/packages/libepoxy/libepoxy-1.5.10.tar.gz",
+  url     = "https://raw.githubusercontent.com/gretagen/zeta-packages/refs/heads/main/packages/libepoxy/libepoxy-1.5.10.tar.gz",
   sha256  = "e377c3bfca0eaa15de47f41985e4586aa919a25da8dc67825741142e912e1424",
   deps    = { "libX11" },
   archive = { strip = 1 },

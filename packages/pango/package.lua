@@ -2,7 +2,7 @@ return {
   name    = "pango",
   version = "1.56.3",
   summary = "Text layout and rendering library",
-  url     = "https://github.com/gretagen/zeta-packages/packages/pango/pango-1.56.3.tar.gz",
+  url     = "https://raw.githubusercontent.com/gretagen/zeta-packages/refs/heads/main/packages/pango/pango-1.56.3.tar.gz",
   sha256  = "1b05568b1c7a1ce75fb3710cfe2d7bb020fe8a42be2aa8584e6ed2369a581989",
   deps    = { "cairo", "fontconfig", "freetype", "fribidi", "harfbuzz" },
   archive = { strip = 1 },
