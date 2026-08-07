@@ -3,7 +3,7 @@ return {
   version = "1.4.7",
   summary = "Resource monitor (bpytop ported to C++)",
   url     = "https://raw.githubusercontent.com/gretagen/zeta-packages/refs/heads/main/packages/btop/btop-1.4.7.tar.gz",
-  sha256  = "af80a3dccbaac598d40e213ae7665dcebd8f1907d30d17322dff87fd7d295cf6",
+  sha256  = "9f1351764987cdf65be9b7525bb00c14e771ce160d109141229ef251dcf27bd5",
   deps    = {},
   archive = { strip = 1 },
   test    = function(p)
