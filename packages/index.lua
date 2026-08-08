@@ -101,6 +101,7 @@ return {
   { name = "libtdb", version = "1.4.12", summary = "Trivial database (key-value store) library" },
   { name = "libtinfo", version = "6.6", summary = "Terminfo database and terminal capability library" },
   { name = "libtirpc", version = "1.3.6", summary = "Transport Independent RPC library" },
+  { name = "libudev", version = "1", summary = "udev library (provided by the base system; stub package)" },
   { name = "libuuid", version = "2.42.1", summary = "UUID library (from util-linux)" },
   { name = "libwacom", version = "2.19.0", summary = "Wacom tablet database and library" },
   { name = "libxcb", version = "1.17.0", summary = "X C Binding library (X11 protocol client library)" },

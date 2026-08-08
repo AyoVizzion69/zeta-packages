@@ -3,7 +3,7 @@ return {
   version = "2.1.0",
   summary = "LXQt component (lxqt-powermanagement)",
   url     = "https://raw.githubusercontent.com/gretagen/zeta-packages/refs/heads/main/packages/lxqt-powermanagement/lxqt-powermanagement-2.1.0.tar.gz",
-  sha256  = "739dbe11d93e87c4eb4fd34820dcbe21ccaa820f4aa3a77976f02623360e3395",
+  sha256  = "52ac01a53270640023ab373c64e601c1b34d3109d9d2a917575d61218bbd152b",
   deps    = { "lxqt-build-tools", "qtbase", "liblxqt" },
   archive = { strip = 1 },
   test    = function(p)
