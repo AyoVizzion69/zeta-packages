@@ -3,7 +3,7 @@ return {
   version = "10.45",
   summary = "Perl-compatible regular expression library v2",
   url     = "https://raw.githubusercontent.com/gretagen/zeta-packages/refs/heads/main/packages/pcre2/pcre2-10.45.tar.gz",
-  sha256  = "83e26686b55994d897380b6492c438d12321f3fd8ba851e9579aa565b3716a8b",
+  sha256  = "d6709d989d346a96779d262c923bf58f66dadb02b3cea4003375628d2ad43f55",
   deps    = {},
   archive = { strip = 1 },
   test    = function(p)

@@ -1,12 +1,12 @@
 return {
-  name = "libSM",
-  version = "1.2.6",
-  summary = "X11 Session Management (SM) library",
-  url = "https://raw.githubusercontent.com/gretagen/zeta-packages/refs/heads/main/packages/libSM/libSM-1.2.6.tar.gz",
-  sha256 = "aa4a9128dce4bf7e5e6ce4248b6e1f6a7aaf2d3fb12e361d8892ea53658a7900",
-  deps = { "libICE" },
+  name    = "libSM",
+  version = "1.2.5",
+  summary = "X Session Management library",
+  url     = "https://raw.githubusercontent.com/gretagen/zeta-packages/refs/heads/main/packages/libSM/libSM-1.2.5.tar.gz",
+  sha256  = "881f6c4b4aebb852cefca4b7476789009afb41ae6ce26ca8282ecb09a8a8dcce",
+  deps    = { "libICE", "libX11", "xorgproto", "xtrans" },
   archive = { strip = 1 },
-  test = function(p)
-    p:run("test -f '" .. p.install_root .. "'/usr/lib/libSM.so.6")
+  test    = function(p)
+    p:run("test -e " .. p.install_root .. "/usr/lib/libSM.so.6")
   end,
 }
