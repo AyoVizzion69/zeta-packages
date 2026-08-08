@@ -1,12 +1,12 @@
 return {
-  name = "xkbcommon",
+  name    = "xkbcommon",
   version = "1.13.2",
   summary = "Keyboard keymap compiler and support library",
-  url = "https://raw.githubusercontent.com/gretagen/zeta-packages/refs/heads/main/packages/xkbcommon/xkbcommon-1.13.2.tar.gz",
-  sha256 = "48d65107a66b4b6e220900fe9c518e6256a7716697ba7deb7a7ea9d77639610a",
-  deps = { "libxml2", "wayland" },
+  url     = "https://raw.githubusercontent.com/gretagen/zeta-packages/refs/heads/main/packages/xkbcommon/xkbcommon-1.13.2.tar.gz",
+  sha256  = "5d0183aa619dce00b453c2cbaea3eacf462c42dba38b0caef1df03bae7105383",
+  deps    = { "libxcb", "libxml2" },
   archive = { strip = 1 },
-  test = function(p)
-    p:run("test -f '" .. p.install_root .. "'/usr/lib/libxkbcommon.so.0")
+  test    = function(p)
+    p:run("test -e " .. p.install_root .. "/usr/lib/libxkbcommon.so.0 -a -e " .. p.install_root .. "/usr/lib/libxkbcommon-x11.so.0")
   end,
 }

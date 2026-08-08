@@ -1,4 +1,5 @@
 return {
+  { name = "alacritty", version = "0.15.1", summary = "GPU-accelerated terminal emulator" },
   { name = "alsa-lib", version = "1.2.14", summary = "ALSA sound library (libasound)" },
   { name = "at-spi2-core", version = "2.56.1", summary = "Assistive Technology Service Provider Interface (includes ATK)" },
   { name = "avahi", version = "0.8", summary = "mDNS/DNS-SD (Bonjour) implementation" },
