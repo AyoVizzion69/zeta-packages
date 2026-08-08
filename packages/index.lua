@@ -109,6 +109,7 @@ return {
   { name = "xauth", version = "1.1.5", summary = "X authority file utility (X11)" },
   { name = "xcb-proto", version = "1.17.0", summary = "XCB protocol descriptions (build-time dependency)" },
   { name = "xdg-desktop-portal", version = "1.22.1", summary = "Desktop integration portal frontend (D-Bus)" },
+  { name = "xf86-input-libinput", version = "1.5.0", summary = "X.Org input driver based on libinput" },
   { name = "xinit", version = "1.4.4", summary = "X11 server startup tool (startx/xinit)" },
   { name = "xkbcommon", version = "1.13.2", summary = "Keyboard keymap compiler and support library" },
   { name = "xkeyboard-config", version = "2.47", summary = "XKB keymap rules and symbols database" },
