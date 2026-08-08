@@ -89,6 +89,7 @@ return {
   { name = "make", version = "4.4.1", summary = "GNU Make — build automation tool" },
   { name = "mango", version = "0.15.6", summary = "MangoWM: lightweight dwl-based Wayland compositor" },
   { name = "mesa", version = "25.0.6", summary = "OpenGL/EGL implementation with software rasterizer" },
+  { name = "mksh", version = "R59c", summary = "MirBSD Korn Shell" },
   { name = "neovim", version = "0.12.4", summary = "Vim-fork focused on extensibility and usability" },
   { name = "nghttp2", version = "1.70.0", summary = "HTTP/2 framing layer C library" },
   { name = "nscde", version = "2.3", summary = "Not so Common Desktop Environment: retro CDE-like desktop on FVWM" },
