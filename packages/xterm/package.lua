@@ -3,7 +3,7 @@ return {
   version = "410",
   summary = "X terminal emulator",
   url     = "https://raw.githubusercontent.com/gretagen/zeta-packages/refs/heads/main/packages/xterm/xterm-410.tar.gz",
-  sha256  = "c0ea2052e6bf7da6d8cfa21da9f28eed58a2ac536fea641d6ba656c5e93ed5eb",
+  sha256  = "09b96376ffefb991c63571f7d254480b6786219131f953b2fe13066b7ca38f41",
   deps    = { "fontconfig", "freetype", "libICE", "libX11", "libXext", "libXft", "libXaw", "libXmu", "libXt" },
   archive = { strip = 1 },
   test    = function(p)
