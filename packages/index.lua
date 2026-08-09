@@ -36,6 +36,7 @@ return {
   { name = "htop", version = "3.5.2", summary = "Interactive process viewer" },
   { name = "hyprland", version = "0.56.2", summary = "Dynamic tiling Wayland compositor" },
   { name = "hyprutils", version = "0.14.0", summary = "Utility library for the Hypr ecosystem" },
+  { name = "imlib2", version = "1.12.6", summary = "Image loading and rendering library" },
   { name = "iniparser", version = "4.2.6", summary = "Standalone ini-file parsing library" },
   { name = "kidletime", version = "6.14.0", summary = "KF6 idle time detection (KF6IdleTime)" },
   { name = "kwindowsystem", version = "6.13.0", summary = "KDE Frameworks 6 window system library" },
