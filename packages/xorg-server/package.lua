@@ -1,12 +1,12 @@
 return {
-  name = "xorg-server",
+  name    = "xorg-server",
   version = "21.1.24",
-  summary = "X.Org X server (modesetting driver, no GLX)",
-  url = "https://raw.githubusercontent.com/gretagen/zeta-packages/refs/heads/main/packages/xorg-server/xorg-server-21.1.24.tar.gz",
-  sha256 = "f807e0e4e008ed03a33dd1da7d0bf0ac44a22b15a8617e8c8a2aef54dc7b4ec0",
-  deps = { "libdrm", "libpciaccess", "pixman", "libXau", "libXdmcp", "libXfont2", "libxcvt", "libtirpc", "xkeyboard-config" },
+  summary = "X.Org X server (modesetting driver, GLX + glamor)",
+  url     = "https://raw.githubusercontent.com/gretagen/zeta-packages/refs/heads/main/packages/xorg-server/xorg-server-21.1.24.tar.gz",
+  sha256  = "36a5e2733f5b760a7b0cec89af707dd8208af116438f1fb60188ba8ddea5b15d",
+  deps    = { "libdrm", "libpciaccess", "pixman", "libXau", "libXdmcp", "libXfont2", "libxcvt", "libxshmfence", "xkeyboard-config", "libglvnd", "libepoxy", "mesa" },
   archive = { strip = 1 },
-  test = function(p)
-    p:run("'" .. p.install_root .. "'/usr/bin/Xorg -version")
+  test    = function(p)
+    p:run("test -e " .. p.install_root .. "/usr/bin/Xorg -a -e " .. p.install_root .. "/usr/lib/xorg/modules/extensions/libglx.so -a -e " .. p.install_root .. "/usr/lib/xorg/modules/libglamoregl.so")
   end,
 }
