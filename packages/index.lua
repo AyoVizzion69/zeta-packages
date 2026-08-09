@@ -137,6 +137,7 @@ return {
   { name = "neovim", version = "0.12.4", summary = "Vim-fork focused on extensibility and usability" },
   { name = "nghttp2", version = "1.70.0", summary = "HTTP/2 framing layer C library" },
   { name = "nscde", version = "2.3", summary = "Not so Common Desktop Environment: retro CDE-like desktop on FVWM" },
+  { name = "openbox", version = "3.6.1", summary = "Openbox X11 window manager (LXQt default WM)" },
   { name = "pam", version = "1.7.2", summary = "Pluggable Authentication Modules (libpam.so.0 + modules)" },
   { name = "pango", version = "1.56.3", summary = "Text layout and rendering library" },
   { name = "pcmanfm-qt", version = "2.1.0", summary = "LXQt component (pcmanfm-qt)" },
