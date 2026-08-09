@@ -164,6 +164,7 @@ return {
   { name = "setxkbmap", version = "1.3.2", summary = "Set the keyboard using the X Keyboard Extension" },
   { name = "solid", version = "6.14.0", summary = "KF6 hardware detection (KF6Solid)" },
   { name = "spirv-tools", version = "2026.2.1", summary = "API for SPIR-V bytecode processing (libSPIRV-Tools)" },
+  { name = "tllist", version = "1.1.0", summary = "Short description" },
   { name = "tree-sitter", version = "0.26.9", summary = "Incremental parsing system for programming tools" },
   { name = "unibilium", version = "2.1.2", summary = "Library to parse terminal information (terminfo)" },
   { name = "util-macros", version = "1.20.2", summary = "X.Org Autoconf macros (build-time dependency)" },
