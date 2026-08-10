@@ -243,6 +243,7 @@ return {
   { name = "xdg-user-dirs", version = "0.18", summary = "XDG user dirs management tool" },
   { name = "xdpyinfo", version = "1.2.0", summary = "Display information utility for X" },
   { name = "xf86-input-libinput", version = "1.5.0", summary = "X.Org input driver based on libinput" },
+  { name = "xfce4", version = "4.20", summary = "Xfce desktop group (meta-package)" },
   { name = "xfdesktop", version = "4.20.2", summary = "Xfce desktop background and icons manager" },
   { name = "xfce4-appfinder", version = "4.20.0", summary = "Xfce application finder" },
   { name = "xfce4-dev-tools", version = "4.20.0", summary = "Xfce development tools (xdt-autogen)" },
