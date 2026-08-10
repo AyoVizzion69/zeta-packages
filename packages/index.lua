@@ -29,6 +29,7 @@ return {
   { name = "fastfetch", version = "2.66.0", summary = "Fast, feature-rich system information fetcher (neofetch successor)" },
   { name = "fftw3", version = "3.3.11", summary = "Fastest Fourier Transform in the West (double precision)" },
   { name = "firefox", version = "153.0.3", summary = "Mozilla Firefox web browser (standalone build)" },
+  { name = "fish", version = "4.8.1", summary = "Friendly interactive shell" },
   { name = "flac", version = "11.0.0", summary = "FLAC lossless audio codec" },
   { name = "flatpak", version = "1.18.0", summary = "Linux application sandboxing and distribution framework" },
   { name = "fontconfig", version = "2.18.2", summary = "Font configuration and customization library" },
@@ -241,5 +242,6 @@ return {
   { name = "xshmfence", version = "1.3.3", summary = "X11 shared memory fence library (synchronization primitives)" },
   { name = "xterm", version = "410", summary = "X terminal emulator" },
   { name = "xtrans", version = "1.5.1", summary = "X transport library (headers and pkg-config file, build-time dependency)" },
+  { name = "zsh", version = "5.9.2", summary = "Powerful shell with scripting and tab completion" },
   { name = "zstd", version = "1.5.7", summary = "Zstandard compression library" },
 }
