@@ -3,7 +3,7 @@ return {
   version = "1.90.10",
   summary = "Power management daemon and tools",
   url     = "https://raw.githubusercontent.com/gretagen/zeta-packages/refs/heads/main/packages/upower/upower-1.90.10.tar.gz",
-  sha256  = "46149c5021089e3c4eae505a414c1fb6b8c8d1469a66b7939b2e24840f6d3f23",
+  sha256  = "ffa540e9ff8981a0a63473acc103df7dc87bddc6ac6f19b083acc012ef8d12dd",
   deps    = { "glib", "libgudev", "polkit", "libz" },
   archive = { strip = 1 },
   test    = function(p)

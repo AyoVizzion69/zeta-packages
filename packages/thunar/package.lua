@@ -3,7 +3,7 @@ return {
   version = "4.20.9",
   summary = "File manager for Xfce",
   url     = "https://raw.githubusercontent.com/gretagen/zeta-packages/refs/heads/main/packages/thunar/thunar-4.20.9.tar.gz",
-  sha256  = "836288d4c46e152c78dc7e38a0b4390693b42ac1c48077b3486bc5fdfd744ebd",
+  sha256  = "c120b2f3fd7af57b5decbe874aee426f3101ca325b6e95348e0284fba75411a1",
   deps    = { "exo", "libxfce4ui", "libxfce4util", "xfconf", "libgudev", "libnotify", "gtk3", "glib", "libSM", "libICE", "harfbuzz", "cairo", "pango" },
   archive = { strip = 1 },
   test    = function(p)
