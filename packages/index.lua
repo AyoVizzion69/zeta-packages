@@ -221,6 +221,7 @@ return {
   { name = "speex", version = "1.5.2", summary = "Speex audio codec" },
   { name = "spirv-tools", version = "2026.2.1", summary = "API for SPIR-V bytecode processing (libSPIRV-Tools)" },
   { name = "sqlite", version = "3.53.4", summary = "Self-contained, embeddable SQL database engine" },
+  { name = "startup-notification", version = "0.12", summary = "X11 application startup notification library" },
   { name = "taglib", version = "2.3.0", summary = "Audio metadata tag library" },
   { name = "tango-icon-theme", version = "0.8.90", summary = "Tango icon theme" },
   { name = "thunar", version = "4.20.9", summary = "File manager for Xfce" },
