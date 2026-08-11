@@ -3,7 +3,7 @@ return {
   version = "4.20.4",
   summary = "Xfce session manager",
   url     = "https://raw.githubusercontent.com/gretagen/zeta-packages/refs/heads/main/packages/xfce4-session/xfce4-session-4.20.4.tar.gz",
-  sha256  = "ca6b87a69185a821ce4d38468266b211a2c181933113b0b150d759df48b3ba82",
+  sha256  = "814b0d73f0bf8bd2c1926353350347a92ea54594c2cdd98bb48ca60c94da3828",
   deps    = { "libxfce4windowing", "libxfce4ui", "libxfce4util", "xfconf", "polkit", "gtk3", "glib", "libSM", "libICE", "libX11" },
   archive = { strip = 1 },
   test    = function(p)
