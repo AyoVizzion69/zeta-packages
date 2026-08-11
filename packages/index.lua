@@ -13,6 +13,7 @@ return {
   { name = "bubblewrap", version = "0.11.2", summary = "Low-level unprivileged sandboxing tool (used by Flatpak)" },
   { name = "bzip2", version = "1.0.8", summary = "bzip2 compression library" },
   { name = "cairo", version = "1.18.4", summary = "2D graphics library" },
+  { name = "caja", version = "1.28.0", summary = "MATE file manager" },
   { name = "cava", version = "1.0.0", summary = "Console-based audio visualizer for ALSA, PulseAudio and PipeWire" },
   { name = "cjson", version = "1.7.19", summary = "Ultralightweight JSON parser for C (used by mango)" },
   { name = "cmatrix", version = "2.0", summary = "C Matrix (The Matrix) terminal screen saver" },
