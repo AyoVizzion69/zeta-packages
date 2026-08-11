@@ -184,6 +184,7 @@ return {
   { name = "make", version = "4.4.1", summary = "GNU Make — build automation tool" },
   { name = "mango", version = "0.15.6", summary = "MangoWM: lightweight dwl-based Wayland compositor" },
   { name = "mate-desktop", version = "1.28.2", summary = "MATE desktop library and GSettings schemas" },
+  { name = "mate-menus", version = "1.28.0", summary = "MATE menu specification and library" },
   { name = "md4c", version = "0.5.3", summary = "C Markdown parser library" },
   { name = "menu-cache", version = "1.1.1", summary = "LXDE menu cache library" },
   { name = "mesa", version = "25.0.6", summary = "OpenGL/EGL implementation with software rasterizer" },
