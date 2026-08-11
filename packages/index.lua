@@ -47,6 +47,7 @@ return {
   { name = "gpgme", version = "1.24.3", summary = "Library providing access to GnuPG crypto functions" },
   { name = "gsettings-desktop-schemas", version = "50.1", summary = "GSettings schemas for the GNOME/MATE desktop" },
   { name = "gtk3", version = "3.24.50", summary = "GTK+ 3 toolkit" },
+  { name = "gtksourceview4", version = "4.8.4", summary = "GTK3 source code highlighting widget library" },
   { name = "harfbuzz", version = "11.1.0", summary = "Text shaping library" },
   { name = "hello", version = "1.0", summary = "A tiny demonstration package for Zeta" },
   { name = "hicolor-icon-theme", version = "0.18", summary = "Default fallback icon theme for XDG icon themes" },
