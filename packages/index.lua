@@ -116,6 +116,7 @@ return {
   { name = "libjpeg-turbo", version = "3.2.0", summary = "MMX/SSE2/SMID accelerated library for manipulating JPEG images" },
   { name = "libjson-glib", version = "1.10.0", summary = "GLib-based JSON serialization library" },
   { name = "liblxqt", version = "2.1.0", summary = "Core LXQt library" },
+  { name = "libmatekbd", version = "1.28.0", summary = "MATE keyboard configuration library" },
   { name = "libmatroska", version = "7.0.0", summary = "Matroska container library" },
   { name = "libmtdev", version = "1.1.6", summary = "Multitouch protocol translation library (mtdev)" },
   { name = "libnotify", version = "0.8.8", summary = "Desktop notification library" },
