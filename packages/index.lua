@@ -192,6 +192,7 @@ return {
   { name = "mate-notification-daemon", version = "1.28.3", summary = "MATE notification daemon" },
   { name = "mate-panel", version = "1.28.4", summary = "MATE desktop panel" },
   { name = "mate-polkit", version = "1.28.1", summary = "MATE PolicyKit authentication agent" },
+  { name = "mate-power-manager", version = "1.28.1", summary = "MATE power manager" },
   { name = "mate-session-manager", version = "1.28.0", summary = "MATE session manager" },
   { name = "mate-settings-daemon", version = "1.28.0", summary = "MATE settings daemon" },
   { name = "md4c", version = "0.5.3", summary = "C Markdown parser library" },
