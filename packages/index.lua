@@ -211,6 +211,7 @@ return {
   { name = "scenefx", version = "0.5", summary = "Wayland compositor effects library (window animation/effects)" },
   { name = "sdl2", version = "2.32.10", summary = "Simple DirectMedia Layer 2 (low-level multimedia library)" },
   { name = "setxkbmap", version = "1.3.2", summary = "Set the keyboard using the X Keyboard Extension" },
+  { name = "shared-mime-info", version = "2.5.1", summary = "Freedesktop.org shared MIME database and update-mime-database" },
   { name = "solid", version = "6.14.0", summary = "KF6 hardware detection (KF6Solid)" },
   { name = "speex", version = "1.5.2", summary = "Speex audio codec" },
   { name = "spirv-tools", version = "2026.2.1", summary = "API for SPIR-V bytecode processing (libSPIRV-Tools)" },
