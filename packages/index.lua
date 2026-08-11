@@ -235,6 +235,7 @@ return {
   { name = "wayland", version = "1.26.0", summary = "Wayland compositor infrastructure: client/server libraries and scanner" },
   { name = "wayland-protocols", version = "1.49", summary = "Wayland protocol XML definitions (build-time data for compositors and clients)" },
   { name = "wlroots", version = "0.20.2", summary = "Modular Wayland compositor library" },
+  { name = "wmaker", version = "0.96.0", summary = "Window Maker: GNUstep-compliant NeXTstep window manager clone" },
   { name = "xauth", version = "1.1.5", summary = "X authority file utility (X11)" },
   { name = "xcb-proto", version = "1.17.0", summary = "XCB protocol descriptions (build-time dependency)" },
   { name = "xcb-util", version = "0.4.1", summary = "Base utilities library for XCB" },
