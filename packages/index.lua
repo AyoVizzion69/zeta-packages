@@ -133,6 +133,7 @@ return {
   { name = "libseccomp", version = "2.6.0", summary = "High-level interface to the Linux seccomp syscall filter" },
   { name = "libshout", version = "3.2.0", summary = "Icecast streaming library" },
   { name = "libsndfile", version = "1.2.2", summary = "Library for reading and writing audio files" },
+  { name = "libsoup2", version = "2.74.3", summary = "HTTP client/server library for GNOME (libsoup 2.x)" },
   { name = "libsoup3", version = "3.6.6", summary = "HTTP client/server library for GNOME (libsoup 3)" },
   { name = "libtasn1", version = "6.6.5", summary = "ASN.1 library" },
   { name = "libtdb", version = "1.4.12", summary = "Trivial database (key-value store) library" },
