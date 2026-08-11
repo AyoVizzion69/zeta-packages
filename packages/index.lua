@@ -55,6 +55,7 @@ return {
   { name = "icu", version = "78.3", summary = "International Components for Unicode (libicui18n/libicuuc/libicudata), required by Qt 5" },
   { name = "imlib2", version = "1.12.6", summary = "Image loading and rendering library" },
   { name = "iniparser", version = "4.2.6", summary = "Standalone ini-file parsing library" },
+  { name = "iso-codes", version = "4.18.0", summary = "ISO language, region, script and currency code lists" },
   { name = "kidletime", version = "6.14.0", summary = "KF6 idle time detection (KF6IdleTime)" },
   { name = "kwindowsystem", version = "6.13.0", summary = "KDE Frameworks 6 window system library" },
   { name = "layer-shell-qt", version = "6.4.0", summary = "Qt Wayland layer-shell interface library" },
