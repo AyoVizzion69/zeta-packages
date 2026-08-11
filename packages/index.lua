@@ -1,6 +1,8 @@
 return {
   { name = "a52dec", version = "0.0.0", summary = "A52 (AC-3) audio decoder lib" },
   { name = "acl", version = "1.1.2302", summary = "Access control list library" },
+  { name = "adwaita-icon-theme", version = "50.0", summary = "Adwaita icon theme" },
+  { name = "adwaita-icon-theme-legacy", version = "46.2", summary = "Full-color legacy icons for the Adwaita icon theme" },
   { name = "alacritty", version = "0.15.1", summary = "GPU-accelerated terminal emulator" },
   { name = "alsa-lib", version = "1.2.14", summary = "ALSA sound library (libasound)" },
   { name = "at-spi2-core", version = "2.56.1", summary = "Assistive Technology Service Provider Interface (includes ATK)" },
@@ -45,6 +47,7 @@ return {
   { name = "gtk3", version = "3.24.50", summary = "GTK+ 3 toolkit" },
   { name = "harfbuzz", version = "11.1.0", summary = "Text shaping library" },
   { name = "hello", version = "1.0", summary = "A tiny demonstration package for Zeta" },
+  { name = "hicolor-icon-theme", version = "0.18", summary = "Default fallback icon theme for XDG icon themes" },
   { name = "htop", version = "3.5.2", summary = "Interactive process viewer" },
   { name = "hyprland", version = "0.56.2", summary = "Dynamic tiling Wayland compositor" },
   { name = "hyprutils", version = "0.14.0", summary = "Utility library for the Hypr ecosystem" },
