@@ -20,6 +20,7 @@ return {
   { name = "cpio", version = "2.15", summary = "GNU cpio: a program to manage archives of files" },
   { name = "ctwm", version = "4.1.0", summary = "Window manager based on TWM (with virtual workspaces)" },
   { name = "dav1d", version = "1.5.4", summary = "AV1 cross-platform decoder library" },
+  { name = "dbus-glib", version = "0.112", summary = "GLib integration for the freedesktop D-Bus message bus" },
   { name = "dejavusans", version = "2.37", summary = "DejaVu Sans/Serif/Mono TrueType fonts" },
   { name = "discord", version = "1.0.152", summary = "Discord (stable Electron client)" },
   { name = "doas", version = "6.8.2", summary = "Execute commands as another user (portable OpenBSD doas)" },
