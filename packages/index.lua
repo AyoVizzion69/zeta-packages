@@ -189,6 +189,7 @@ return {
   { name = "mate-control-center", version = "1.28.0", summary = "MATE control center" },
   { name = "mate-desktop", version = "1.28.2", summary = "MATE desktop library and GSettings schemas" },
   { name = "mate-menus", version = "1.28.0", summary = "MATE menu specification and library" },
+  { name = "mate-notification-daemon", version = "1.28.3", summary = "MATE notification daemon" },
   { name = "mate-panel", version = "1.28.4", summary = "MATE desktop panel" },
   { name = "mate-session-manager", version = "1.28.0", summary = "MATE session manager" },
   { name = "mate-settings-daemon", version = "1.28.0", summary = "MATE settings daemon" },
