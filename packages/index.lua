@@ -186,6 +186,7 @@ return {
   { name = "mango", version = "0.15.6", summary = "MangoWM: lightweight dwl-based Wayland compositor" },
   { name = "marco", version = "1.28.1", summary = "MATE window manager" },
   { name = "mate-backgrounds", version = "1.28.0", summary = "MATE desktop background wallpapers" },
+  { name = "mate-control-center", version = "1.28.0", summary = "MATE control center" },
   { name = "mate-desktop", version = "1.28.2", summary = "MATE desktop library and GSettings schemas" },
   { name = "mate-menus", version = "1.28.0", summary = "MATE menu specification and library" },
   { name = "mate-panel", version = "1.28.4", summary = "MATE desktop panel" },
