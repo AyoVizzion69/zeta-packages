@@ -91,6 +91,7 @@ return {
   { name = "libarchive", version = "3.8.9", summary = "Library for reading/writing streaming archives" },
   { name = "libassuan", version = "3.0.2", summary = "IPC library used by GnuPG components" },
   { name = "libb2", version = "0.98.1", summary = "BLAKE2 hash function library" },
+  { name = "libcanberra", version = "0.30", summary = "XDG Sound Theme and Name Specifications implementation" },
   { name = "libcurl", version = "8.21.0", summary = "URL transfer library" },
   { name = "libdaemon", version = "0.14", summary = "Lightweight C library for writing daemons" },
   { name = "libdbusmenu-lxqt", version = "0.2.0", summary = "LXQt dbusmenu library" },
