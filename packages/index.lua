@@ -184,6 +184,7 @@ return {
   { name = "mesa", version = "25.0.6", summary = "OpenGL/EGL implementation with software rasterizer" },
   { name = "micro", version = "2.0.15", summary = "Modern and intuitive terminal-based text editor" },
   { name = "mksh", version = "R59c", summary = "MirBSD Korn Shell" },
+  { name = "mpfr", version = "4.2.1", summary = "GNU multiple-precision floating-point rounding library" },
   { name = "mpg123", version = "0.49.4", summary = "MPEG audio decoder library" },
   { name = "muparser", version = "2.3.5", summary = "Fast math expression parser library" },
   { name = "neovim", version = "0.12.4", summary = "Vim-fork focused on extensibility and usability" },
