@@ -190,6 +190,7 @@ return {
   { name = "mate-menus", version = "1.28.0", summary = "MATE menu specification and library" },
   { name = "mate-panel", version = "1.28.4", summary = "MATE desktop panel" },
   { name = "mate-session-manager", version = "1.28.0", summary = "MATE session manager" },
+  { name = "mate-settings-daemon", version = "1.28.0", summary = "MATE settings daemon" },
   { name = "md4c", version = "0.5.3", summary = "C Markdown parser library" },
   { name = "menu-cache", version = "1.1.1", summary = "LXDE menu cache library" },
   { name = "mesa", version = "25.0.6", summary = "OpenGL/EGL implementation with software rasterizer" },
