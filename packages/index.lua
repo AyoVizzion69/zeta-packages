@@ -188,6 +188,7 @@ return {
   { name = "mate-backgrounds", version = "1.28.0", summary = "MATE desktop background wallpapers" },
   { name = "mate-desktop", version = "1.28.2", summary = "MATE desktop library and GSettings schemas" },
   { name = "mate-menus", version = "1.28.0", summary = "MATE menu specification and library" },
+  { name = "mate-panel", version = "1.28.4", summary = "MATE desktop panel" },
   { name = "md4c", version = "0.5.3", summary = "C Markdown parser library" },
   { name = "menu-cache", version = "1.1.1", summary = "LXDE menu cache library" },
   { name = "mesa", version = "25.0.6", summary = "OpenGL/EGL implementation with software rasterizer" },
