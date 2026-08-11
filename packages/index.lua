@@ -184,6 +184,7 @@ return {
   { name = "lz4", version = "1.10.0", summary = "LZ4 compression library" },
   { name = "make", version = "4.4.1", summary = "GNU Make — build automation tool" },
   { name = "mango", version = "0.15.6", summary = "MangoWM: lightweight dwl-based Wayland compositor" },
+  { name = "marco", version = "1.28.1", summary = "MATE window manager" },
   { name = "mate-backgrounds", version = "1.28.0", summary = "MATE desktop background wallpapers" },
   { name = "mate-desktop", version = "1.28.2", summary = "MATE desktop library and GSettings schemas" },
   { name = "mate-menus", version = "1.28.0", summary = "MATE menu specification and library" },
