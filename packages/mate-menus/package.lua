@@ -1,12 +1,12 @@
 return {
   name    = "mate-menus",
   version = "1.28.0",
-  summary = "MATE menu specification and library",
+  summary = "MATE menu system",
   url     = "https://raw.githubusercontent.com/gretagen/zeta-packages/refs/heads/main/packages/mate-menus/mate-menus-1.28.0.tar.gz",
-  sha256  = "1b3c6d193c6df74fcae70b4a34eef600f4f23133bbec271aa65c628f310969a8",
-  deps    = { "glib" },
+  sha256  = "dbcd56580c6d076e9ef1cdd6dcc0ad9e6353c34d8c0e052c6002760f3297b394",
+  deps    = { "glib", "libxml2" },
   archive = { strip = 1 },
   test    = function(p)
-    p:run("test -f " .. p.install_root .. "/usr/lib/libmate-menu.so")
+    p:run("test -f " .. p.install_root .. "/etc/xdg/menus/mate-applications.menu")
   end,
 }
