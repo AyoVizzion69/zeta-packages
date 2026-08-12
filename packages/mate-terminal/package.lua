@@ -3,7 +3,7 @@ return {
   version = "1.28.1",
   summary = "MATE terminal",
   url     = "https://raw.githubusercontent.com/gretagen/zeta-packages/refs/heads/main/packages/mate-terminal/mate-terminal-1.28.1.tar.gz",
-  sha256  = "c20df5f177b31861d4255ba3046ba6ba8b8d3a13bd1d1b8f3c4f1fd1b3eaa498",
+  sha256  = "b6cf254753a0169b1aed0904215ba0662e8df3dd8f3caa11b7490a466b37ba0b",
   deps    = { "glib", "gtk3", "vte", "libdconf", "libSM", "libICE", "libX11" },
   archive = { strip = 1 },
   test    = function(p)

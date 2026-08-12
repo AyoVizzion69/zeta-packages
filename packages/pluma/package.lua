@@ -3,7 +3,7 @@ return {
   version = "1.28.0",
   summary = "MATE text editor",
   url     = "https://raw.githubusercontent.com/gretagen/zeta-packages/refs/heads/main/packages/pluma/pluma-1.28.0.tar.gz",
-  sha256  = "0a69733cba219e9c132f67dfdc07b7f9d470e6bc9c18e14634f65bfa379e0446",
+  sha256  = "7964d4715666cb47b8e6c049b519a8ae1162bafb2a96e7344692811eba8b4ea2",
   deps    = { "gtk3", "gtksourceview4", "mate-desktop", "libpeas", "libxml2" },
   archive = { strip = 1 },
   test    = function(p)

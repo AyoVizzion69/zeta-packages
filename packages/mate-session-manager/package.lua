@@ -3,7 +3,7 @@ return {
   version = "1.28.0",
   summary = "MATE session manager",
   url     = "https://raw.githubusercontent.com/gretagen/zeta-packages/refs/heads/main/packages/mate-session-manager/mate-session-manager-1.28.0.tar.gz",
-  sha256  = "f38527cdc21875e4b6381ae1b25aee364c5f7628bd2262e7d364f9ef195616fb",
+  sha256  = "383323bffe2eb4efc021e4e4fdd682beba53258e150edbfc04572ff783b230f9",
   deps    = { "glib", "gtk3", "dbus-glib", "libX11", "libSM", "libICE", "libXext", "libXau", "libXcomposite", "libepoxy", "mesa", "xtrans" },
   archive = { strip = 1 },
   test    = function(p)
