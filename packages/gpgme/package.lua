@@ -1,12 +1,12 @@
 return {
   name    = "gpgme",
-  version = "1.24.3",
+  version = "2.1.0",
   summary = "Library providing access to GnuPG crypto functions",
-  url     = "https://raw.githubusercontent.com/gretagen/zeta-packages/refs/heads/main/packages/gpgme/gpgme-1.24.3.tar.gz",
-  sha256  = "6c4a93418e900d830db1f593272d8e341c1d46fa2d74558da47d3fc0d243750c",
+  url     = "https://raw.githubusercontent.com/gretagen/zeta-packages/refs/heads/main/packages/gpgme/gpgme-2.1.0.tar.gz",
+  sha256  = "9fb3ab9ce867f884384406606543234c599d3f130219a09c2aac46aca3d1a06a",
   deps    = { "libgpg-error", "libassuan" },
   archive = { strip = 1 },
   test    = function(p)
-    p:run("test -f " .. p.install_root .. "/usr/lib/libgpgme.so.11")
+    p:run("test -f " .. p.install_root .. "/usr/lib/libgpgme.so.45")
   end,
 }
