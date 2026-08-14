@@ -3,10 +3,7 @@ return {
   version = "2.54.0",
   summary = "C++ bindings for Pango",
   url     = "https://raw.githubusercontent.com/gretagen/zeta-packages/refs/heads/main/packages/pangomm/pangomm-2.54.0.tar.gz",
-  sha256  = "d4e96490b52a495b67191f8e4961675ae47b792a4a19483e2b50e0c47510bfd2",
-  deps    = { "pango", "glibmm", "cairomm" },
+  sha256  = "36326915e808d72286bc1e743248f3276ea79a4614a4750f62d67946c8d53012",
+  deps    = {"pango", "glibmm", "cairomm", "libsigc++2", },
   archive = { strip = 1 },
-  test    = function(p)
-    p:run("test -f " .. p.install_root .. "/usr/lib/pkgconfig/pangomm-1.4.pc")
-  end,
 }

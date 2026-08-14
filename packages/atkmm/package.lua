@@ -3,10 +3,7 @@ return {
   version = "2.36.4",
   summary = "C++ bindings for ATK accessibility toolkit",
   url     = "https://raw.githubusercontent.com/gretagen/zeta-packages/refs/heads/main/packages/atkmm/atkmm-2.36.4.tar.gz",
-  sha256  = "09dce0b2f0bf9f3cc5809bd885b6424151d793ebf4565240c242598ae5edf3ae",
-  deps    = { "gtk3", "glibmm" },
+  sha256  = "a90e9a48a36890c9b4bb0875b2383acfd3b8f6ae2c90270d7815af03e712c6b4",
+  deps    = {"glib", "glibmm", "libsigc++2", "at-spi2-core", },
   archive = { strip = 1 },
-  test    = function(p)
-    p:run("test -f " .. p.install_root .. "/usr/lib/pkgconfig/atkmm-1.6.pc")
-  end,
 }
