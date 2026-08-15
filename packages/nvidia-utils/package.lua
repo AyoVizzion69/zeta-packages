@@ -1,0 +1,12 @@
+return {
+  name    = "nvidia-utils",
+  version = "595.71.05",
+  summary = "NVIDIA official driver userspace (vendor GL/EGL/GLES/Vulkan libs, tools, Xorg modules)",
+  url     = "https://raw.githubusercontent.com/gretagen/zeta-packages/refs/heads/main/packages/nvidia-utils/nvidia-utils-595.71.05.tar.xz",
+  sha256  = "fd920773560047c9b9a31ec628491df5afecc898daebad6ad06809e4776f1650",
+  deps    = { "libglvnd", "nvidia-firmware" },
+  archive = { strip = 1 },
+  test    = function(p)
+    p:run("test -x " .. p.install_root .. "/usr/bin/nvidia-smi -a -e " .. p.install_root .. "/usr/lib/libGLX_nvidia.so.0 -a -e " .. p.install_root .. "/usr/lib/xorg/modules/drivers/nvidia_drv.so")
+  end,
+}
