@@ -90,6 +90,7 @@ return {
   { name = "jsoncpp", version = "1.9.6", summary = "C++ JSON reader/writer" },
   { name = "kidletime", version = "6.14.0", summary = "KF6 idle time detection (KF6IdleTime)" },
   { name = "kwindowsystem", version = "6.13.0", summary = "KDE Frameworks 6 window system library" },
+  { name = "labwc", version = "0.20.1", summary = "wlroots-based Wayland compositor inspired by Openbox" },
   { name = "larp", version = "1.0.0", summary = "A simple script that displays a larp ASCII image" },
   { name = "layer-shell-qt", version = "6.4.0", summary = "Qt Wayland layer-shell interface library" },
   { name = "lcms2", version = "2.17", summary = "Little CMS 2 — color management library" },

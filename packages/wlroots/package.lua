@@ -1,12 +1,12 @@
 return {
-  name = "wlroots",
+  name    = "wlroots",
   version = "0.20.2",
   summary = "Modular Wayland compositor library",
-  url = "https://raw.githubusercontent.com/gretagen/zeta-packages/refs/heads/main/packages/wlroots/wlroots-0.20.2.tar.gz",
-  sha256 = "99bea028b46bfe465f0a83f90dd95bffc57281c4e352ffe67aaa3427ccd56b3a",
-  deps = { "wayland", "libdrm", "xkbcommon", "pixman", "libglvnd", "mesa" },
+  url     = "https://raw.githubusercontent.com/gretagen/zeta-packages/refs/heads/main/packages/wlroots/wlroots-0.20.2.tar.gz",
+  sha256  = "e9a13bf0e55473a6b7bf152088da0f87df532a8ddc7c171025e9b9764d3753e8",
+  deps    = { "wayland", "libdrm", "xkbcommon", "pixman", "libglvnd", "mesa" },
   archive = { strip = 1 },
-  test = function(p)
-    p:run("test -f '" .. p.install_root .. "'/usr/lib/libwlroots-0.20.so")
+  test    = function(p)
+    p:run("test -f " .. p.install_root .. "/usr/lib/libwlroots-0.20.so")
   end,
 }
